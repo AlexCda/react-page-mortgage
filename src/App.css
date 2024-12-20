@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eaf6ff;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  max-width: 1000px;
+  margin: 50px auto;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  flex: 1;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.calculator-form {
+  background: #ffffff;
+}
+
+.results-display {
+  background: #052f49;
+  color: white;
+  text-align: center;
+}
+
+.results-display h3 {
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+.results-display p {
+  margin-top: 10px;
+  font-size: 1em;
+}
+
+.results-display .illustration {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150px;
+}
+
+.form-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clear-btn {
+  font-size: 0.9em;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.clear-btn:hover {
+  text-decoration: underline;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.input-group span {
+  background: #f0f0f0;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 0 4px 4px 0;
+  font-size: 0.9em;
+  color: #666;
+  height: 38px;
+  display: flex;
+  align-items: center;
+}
+
+.input-group input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+.input-group input + span {
+  border-radius: 0 4px 4px 0;
+  border-left: none;
+}
+
+.mortgage-type {
+  margin-bottom: 20px;
+}
+
+.mortgage-type label {
+  font-weight: bold;
+}
+
+.mortgage-type div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.mortgage-type input {
+  margin-right: 10px;
+}
+
+.calculate-btn {
+  background: #b2de00;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+}
+
+.calculate-btn:hover {
+  background: #9cc500;
+}
